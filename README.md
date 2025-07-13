@@ -2,10 +2,12 @@
 Aplikasi Flutter ini dibuat sebagai bagian dari proses seleksi. Aplikasi ini terdiri dari tiga layar utama dengan fungsionalitas untuk pengecekan palindrom, menampilkan pengguna yang dipilih, dan menampilkan daftar pengguna dari API.
 
 ## Data Mahasiswa
-<p>Nama: Atyla Azfa Al Harits</p>
-<p>NIM: 19230825</p>
-<p>Universitas: Universitas Bina Sarana Informatika</p>
-<p>Email: damsadam78@gmail.com</p>
+| Keterangan | Informasi |
+| :--- | :--- |
+| **Nama** | Atyla Azfa Al Harits |
+| **NIM** | 19230825 |
+| **Universitas**| Universitas Bina Sarana Informatika |
+| **Email** | damsadam78@gmail.com |
 
 ## Struktur Folder (MVC)
 ```bash
