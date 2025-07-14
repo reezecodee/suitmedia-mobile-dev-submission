@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../controllers/user_controller.dart';
 import '../views/third_screen.dart';
 
 class SecondScreen extends StatefulWidget {
@@ -15,7 +17,12 @@ class _SecondScreenState extends State<SecondScreen> {
   Future<void> _navigateAndDisplaySelection(BuildContext context) async {
     final result = await Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const ThirdScreen()),
+      MaterialPageRoute(
+        builder: (context) => ChangeNotifierProvider(
+          create: (context) => UserController(),
+          child: const ThirdScreen(),
+        ),
+      ),
     );
 
     if (!mounted || result == null) return;

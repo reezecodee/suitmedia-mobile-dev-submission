@@ -35,6 +35,7 @@ Beberapa library yang dipakai pada aplikasi:
     <li>Google Fonts</li>
     <li>Http</li>
     <li>Cuppertino Icons</li>
+    <li>Provider</li>
 </ul>
 
 ## Screenshot Aplikasi
